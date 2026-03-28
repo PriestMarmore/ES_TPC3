@@ -28,7 +28,7 @@ const App = () => {
       {currentScreen === 'home' && (
         <View style={styles.screen} testID="home_screen">
           <View style={styles.header}>
-            <Text style={styles.headerText}>Welcome, Priest 👋</Text>
+            <Text style={styles.headerText}>Welcome, Pedro</Text>
           </View>
           
           <View style={styles.content}>
@@ -82,7 +82,7 @@ const App = () => {
               <View style={styles.modal} testID="profile_screen">
                 <Text style={styles.modalIcon}>✓</Text>
                 <Text style={styles.modalTitle}>Recorded!</Text>
-                <Text style={styles.modalBody}>Presence confirmed for Student: Priest Marmore</Text>
+                <Text style={styles.modalBody}>Presence confirmed for Student: Pedro Moreira</Text>
                 <TouchableOpacity 
                   style={styles.btnPrimary} 
                   onPress={() => {setShowModal(false); setCurrentScreen('home');}}
